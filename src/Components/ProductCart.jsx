@@ -1,8 +1,8 @@
 import React from 'react'
-import { useCartStore } from '../Zustand/Store/Store'
+import { useCartStore } from '../Zustand/Store/store'
 
 const ProductCart = ({ product }) => {
-  const { id, title, description, price, image } = product
+  const { title, description, price, image } = product
   const dispatch = useCartStore((state) => state.dispatch)
   return (
     <div className='bg-white border border-gray-200 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 p-4'>

@@ -22,7 +22,7 @@ const ProductCart = ({ product }) => {
               payload: product,
             })
           }
-          className='bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-5 py-2 rounded-full shadow-md hover:scale-105 transition-transform'
+          className='bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-2 py-2 rounded-full shadow-md hover:scale-105 transition-transform'
         >
           🛒 Add to Cart
         </button>

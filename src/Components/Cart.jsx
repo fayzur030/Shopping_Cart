@@ -1,5 +1,5 @@
 import { useCartStore } from '../Zustand/Store/Store'
-
+import { MdDeleteForever } from 'react-icons/md'
 const Cart = () => {
   const cart = useCartStore((state) => state.cart)
   const dispatch = useCartStore((state) => state.dispatch)
@@ -32,7 +32,7 @@ const Cart = () => {
                     }
                     className='bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600'
                   >
-                    Remove One
+                    <MdDeleteForever size={28} />
                   </button>
 
                   {/* <button

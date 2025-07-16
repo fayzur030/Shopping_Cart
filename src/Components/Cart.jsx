@@ -32,17 +32,17 @@ const Cart = () => {
                     }
                     className='bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600'
                   >
-                    ➖ Remove One
+                    Remove One
                   </button>
 
-                  <button
+                  {/* <button
                     onClick={() =>
                       dispatch({ type: 'Remove_From_Cart', payload: item })
                     }
                     className='bg-red-600 text-white px-1 py-1 rounded hover:bg-red-700'
                   >
                     ❌ Remove Item
-                  </button>
+                  </button> */}
                   <button
                     onClick={() =>
                       dispatch({ type: 'Clear_Cart', payload: item })

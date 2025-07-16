@@ -1,4 +1,4 @@
-import { useCartStore } from '../Zustand/Store/Store'
+import { useCartStore } from '../Zustand/Store/store'
 import { MdDeleteForever } from 'react-icons/md'
 const Cart = () => {
   const cart = useCartStore((state) => state.cart)
